@@ -23,6 +23,12 @@
         },
         "env": {
             "type": "object"
+        },
+        "watch": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         }
     }
 }
