@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+        "verbose": {
+            "type": "boolean"
+        },
+        "ignore": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "execMap": {
+            "type": "object"
+        },
+        "delay": {
+            "type": "string",
+            "default": "200"
+        },
+        "restartable": {
+            "type": "string",
+            "default": "rs"
+        },
+        "env": {
+            "type": "object"
+        }
+    }
+}
